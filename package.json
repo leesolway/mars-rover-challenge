@@ -1,0 +1,20 @@
+{
+  "name": "mars-challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^7.0.1"
+  },
+  "scripts": {
+    "start": "node ./src/index.js",
+    "test": "mocha"
+  },
+  "author": "Lee Solway",
+  "license": "ISC",
+  "engines": {
+    "node": ">=12.15.0"
+  }
+}

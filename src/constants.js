@@ -1,0 +1,32 @@
+const COMPASS = {
+  NORTH: 0,
+  EAST: 1,
+  SOUTH: 2,
+  WEST: 3,
+};
+
+const COMPASS_SHORT = {
+  N: COMPASS.NORTH,
+  E: COMPASS.EAST,
+  S: COMPASS.SOUTH,
+  W: COMPASS.WEST,
+};
+
+const DIRECTIONS = {
+  LEFT: 'L',
+  RIGHT: 'R',
+  MOVE: 'M',
+};
+
+const DIRECTIONS_SHORT = {
+  L: DIRECTIONS.LEFT,
+  R: DIRECTIONS.RIGHT,
+  M: DIRECTIONS.MOVE,
+};
+
+module.exports = {
+  COMPASS,
+  COMPASS_SHORT,
+  DIRECTIONS,
+  DIRECTIONS_SHORT,
+};
